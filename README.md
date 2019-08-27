@@ -1,5 +1,5 @@
 # Lancamento
-Utilizando .NET Core, RabbitMQ e XUnity
+Utilizando .NET Core e XUnity
 
 # Como Utilizar
 <b>Debug:</b> é necessário subir os containers localizados na pasta docker no arquivo "mongo.yml"<br/>
@@ -26,10 +26,3 @@ curl -X POST \
   "contaDestino": 2,
   "valor": 10
 }'
-
-
-
-curl -X GET \
-  http://localhost:5101/api/lancamento \
-  -H 'Postman-Token: c488d07c-a497-4770-928f-c4daf68a905c' \
-  -H 'cache-control: no-cache'
